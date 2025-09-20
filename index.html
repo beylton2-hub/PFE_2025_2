@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" 
+   <title>front end</title>
+</head>
+<body>
+   <h1>Front-end - 05/09/25</h1>
+   <div id="saida"></div>
+  
+   <script>
+    let saida = document.getElementById ("saida");
+let calc;
+let num1 = parseFloat(prompt("digite o primeiro numero:"));//2.5
+let num2 = parseFloat(prompt("digite o segundo numero:"));//3.5
+calc = num1+num2;
+   saida.innerHTML+="Num1 = "+num1+"<br>";
+    saida.innerHTML+="Num2 = "+num2+"<br>";
+    saida.innerHTML+= "calc ="+calc+"<br>";
+    saida.innerHTML+="<br>soma: "+(num1+num2);
+        saida.innerHTML+="<br>subtraçao: "+(num1-num2);
+    saida.innerHTML+="<br>multiplicaçao: "+(num1*num2);
+    saida.innerHTML+="<br>divisao: "+(num1/num2);
+        saida.innerHTML+="<br>resto: "+(num1%num2);
+            saida.innerHTML+="<br>esponenciaçao: "+(num1**num2);
+
+
+
+   </script>
+</body>
+</html>
